@@ -1,0 +1,20 @@
+{
+  "name": "orlando-ai-docentes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Asistente académico con memoria aislada por profesor y colegio",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "express-rate-limit": "^7.5.0",
+    "google-auth-library": "^9.15.0"
+  }
+}
